@@ -27,7 +27,7 @@ const axios = require('axios');
 
     ];
     const results = await Promise.all(asyncFunctions);
-    console.log(results)
+
     // outputs 
     results.forEach(items => {
         items.forEach(item => {
